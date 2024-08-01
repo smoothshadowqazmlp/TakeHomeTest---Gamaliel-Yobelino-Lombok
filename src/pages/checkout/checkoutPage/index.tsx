@@ -1,7 +1,6 @@
 // src/components/Checkout/CheckoutPage.tsx
 import React, { ChangeEvent, FormEvent, useEffect, useState } from "react";
 import { getCart, updateCart } from "../../../services/chartService";
-import { Drug } from "../../home/drugCard";
 
 export interface Drug {
   id: string;
