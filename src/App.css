@@ -1,0 +1,94 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.drug-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.drug-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+  margin-bottom: 16px;
+}
+
+.drug-detail {
+  margin: 20px;
+}
+
+.drug-detail button {
+  margin-top: 10px;
+}
+
+.drug-detail a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: blue;
+}
+
+/* src/App.css */
+.cart-item {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item input {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.cart-summary {
+  margin-top: 20px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
